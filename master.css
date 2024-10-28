@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    /* scroll-behavior: smooth; */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* *,
+*:before,
+*:after {
+    box-sizing: inherit;
+} */
+
+/* body { */
+    /* background: #00030050; */
+    /* background: #749cb5; */
+    /* background: #fab946; */
+    /* background: #b73b52; */
+    /* background-image: linear-gradient(to right, #01022d, #000); */
+    /* background: linear-gradient(to right, #000004e5, #06040478 30%),url(image/pexels-adria-masi-461420600-27962178.jpg) ; */
+    /* background: linear-gradient(#111, #222);  */
+    /* background-image: linear-gradient(to left, #dfdf68, #d5d8);  */
+/* }  */
+
+
+
+.container{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #1c1c4c;
+    color: #fff;
+}
+
+.container .box{
+    width: 85%;
+    margin: auto;
+}
+.container .box header{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.container .box header .top-left{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.container .box header .top-right span{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: forestgreen;
+    font-size: 18px;
+    text-align: center;
+    line-height: 37px;
+    border-radius: 50%;
+    margin: 0 4px;
+    cursor: pointer;
+}
+.container .box header .top-right span:nth-child(1){
+    background-color: #4267b2;
+}
+.container .box header .top-right span:nth-child(2){
+    background-color: #1da1fa;
+}
+.container .box header .top-right span:nth-child(3){
+    background-color: #e1306c;
+}
+.container .box header .top-right span:nth-child(4){
+background: #4267b2;
+}
+.container .box header .top-right span:nth-child(5){
+    background-color: #f00;
+}
+
+                    /* :hover */
+
+
+.container .box header .top-right span:nth-child(1):hover{
+    background-color: #2b52a1a1;
+}
+.container .box header .top-right span:nth-child(2):hover{
+    background-color: #2292ddd2;
+}
+.container .box header .top-right span:nth-child(3):hover{
+    background-color: #ab2652da;
+}
+.container .box header .top-right span:nth-child(4):hover{
+background: #2a4a89cf;
+}
+.container .box header .top-right span:nth-child(5):hover{
+    background-color: rgba(181, 22, 22, 0.829);
+}
+
+.empty{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0 ;
+    top: 72px;
+    background-color: #ccc;
+}
+
+
+/* br */
+
+
+.container .box .box-2{
+    margin: 20px 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+.container .box .box-2 .text{
+    width: 20%;
+}
+.container .box .box-2 .text h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 7px 0;
+    position: relative;
+}
+.container .box .box-2 .text h3::before{
+    content: "";
+    position: absolute;
+    width: 37px;
+    height: 2px;
+    background-color: #ccc;
+    bottom: -2px;
+    left: 0;
+}
+.container .box .box-2 .text p{
+    font-size: 15px;
+    opacity: .7;
+    line-height: 24px;
+}
+.container .box .box-2 .text .input-1{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 5px;
+    background: transparent;
+    padding-left: 7px;
+    margin: 3px 0 5px 0;
+    font-size: 15px;
+    color: #fff;
+}
+.container .box .box-2 .text .input-2{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background: #CCC;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.container .box .box-2 .text .input-2:hover{
+    background: #f0f0f0;
+    
+}
+
+/* br */
+
+
+.container  .fotter{
+    padding: 10px 0;
+    background:#242460 ;
+}
+
+.container  .fotter .center{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+.container  .fotter .center .text-left{
+    font-size: 15px;
+    opacity: .7;
+    line-height: 24px;
+    
+}
+.container  .fotter .center .text-left a{
+    color: #fff;
+    opacity: .6;
+    text-decoration: none;
+}
+
+
+.container  .fotter .center .text-right a{
+    color: #fff;
+    opacity: .6;
+    text-decoration: none; 
+    margin-left :10px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
